@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "skipDefaultLibCheck": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "immutability-helper": ["./node_modules/@types/immutability-helper/index"],
+      "react": ["./node_modules/@types/react/index"],
+      "react-dom": ["./node_modules/@types/react-dom/index"]
+    }
+  },
+  "exclude": [
+      "bin",
+      "node_modules"
+  ]
+}
